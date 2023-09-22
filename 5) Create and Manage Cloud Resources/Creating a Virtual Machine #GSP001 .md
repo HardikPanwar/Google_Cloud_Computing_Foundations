@@ -20,7 +20,7 @@ gcloud compute firewall-rules create allow-http \
 gcloud compute instances create gcelab2 \
 --machine-type e2-medium \
 --zone=$ZONE
-gcloud compute ssh gcelab --zone=$ZONE
+gcloud compute ssh gcelab --zone=$ZONE --quiet
 ```
 ```cmd
 sudo apt-get update

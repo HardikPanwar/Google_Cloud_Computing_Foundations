@@ -25,8 +25,12 @@ cat > details.json << EOF
 EOF
 cat details.json
 ```
-### Press 10 and y when asked (3 times it will ask for y)
-### Identity-Aware Proxy > Enable Api > GO TO IDENTITY-AWARE PROXY > CONFIGURE CONSENT SCREEN > Select Internal > Create
-### Fill the blanks from the Terminal > SAVE AND CONTINUE >SAVE AND CONTINUE > BACK TO DASHBOARD
-### Reload the previous page > Turn on App Engine app > Check the box > ADD PRINCIPAL 
-### "USERNAME" > Role= `IAP-Secured Web App User` > SAVE
+>Press 10 and y when asked (3 times it will ask for y)
+
+> Security > Identity-Aware Proxy > Enable Api > GO TO IDENTITY-AWARE PROXY > CONFIGURE CONSENT SCREEN > Select Internal > Create
+
+>Fill the blanks from the Terminal > SAVE AND CONTINUE >SAVE AND CONTINUE > BACK TO DASHBOARD
+
+>Reload the previous page > Turn on App Engine app > Check the box > ADD PRINCIPAL 
+
+> "USERNAME" > Role= `IAP-Secured Web App User` > SAVE

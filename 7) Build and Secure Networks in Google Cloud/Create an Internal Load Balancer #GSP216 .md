@@ -1,4 +1,4 @@
-# GSP751 
+# GSP216 
 [![](https://github.com/CodingWithHardik/CodingWithHardik/blob/main/img/subscribe_button.png)](https://www.youtube.com/@CloudHustlers)
 ## Run in cloudshell 
 ### Zone from task 2 >`Create the managed instance groups`> step 3
