@@ -74,3 +74,4 @@ gcloud compute forwarding-rules create $FIREWALL_NAME \
 --target-http-proxy http-lb-proxy \
 --ports 80
 ```
+## Wait 10 minutes then check the progress
