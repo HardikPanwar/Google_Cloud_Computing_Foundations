@@ -12,6 +12,7 @@ export REGION2=
 ```cmd
 export VM_ZONE=
 ```
+#### After this there's a one more command in end
 ```cmd
 gcloud compute --project=$DEVSHELL_PROJECT_ID firewall-rules create default-allow-http \
 --direction=INGRESS \
@@ -154,7 +155,7 @@ curl -X POST -H "Content-Type: application/json" \
 -H "Authorization: Bearer $TOKEN" \
 -d @1.json \
 "https://compute.googleapis.com/compute/v1/projects/$DEVSHELL_PROJECT_ID/global/backendServices"
-sleep 25
+sleep 120
 gcloud compute url-maps create http-lb \
 --default-service=projects/$DEVSHELL_PROJECT_ID/global/backendServices/http-backend
 gcloud compute target-http-proxies create http-lb-target-proxy \
